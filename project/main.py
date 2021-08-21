@@ -54,16 +54,16 @@ def algC():
         bestAlg = ''
 
         # SHA-512
-        SHA512 = pyautogui.screenshot(region=(1570, 655, 180, 35))
+        SHA512 = pyautogui.screenshot(region=(1600, 655, 180, 35))
 
         # Dagger
-        Dagger = pyautogui.screenshot(region=(1450, 705, 300, 36))
+        Dagger = pyautogui.screenshot(region=(1500, 705, 300, 36))
 
         # Scrypt
-        Scrypt = pyautogui.screenshot(region=(1450, 758, 300, 36))
+        Scrypt = pyautogui.screenshot(region=(1500, 758, 300, 36))
 
         # Bloxchain
-        Bloxchain = pyautogui.screenshot(region=(1450, 813, 300, 36))
+        Bloxchain = pyautogui.screenshot(region=(1500, 813, 300, 36))
         
         SHA512.save(f'algDir\\SHA512.png')
         Dagger.save(f'algDir\\Dagger.png')
@@ -110,12 +110,14 @@ def algC():
                 if every > 2.0:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 670, True, 1)
                     mouse.click('left')
                     mouse.click('left')
                 else:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 670, True, 0)
                     mouse.click('left')
                     mouse.click('left')
@@ -128,12 +130,14 @@ def algC():
                 if every > 2.0:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 725, True, 1)
                     mouse.click('left')
                     mouse.click('left')
                 else:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 725, True, 0)
                     mouse.click('left')
                     mouse.click('left')
@@ -146,12 +150,14 @@ def algC():
                 if every > 2.0:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 775, True, 1)
                     mouse.click('left')
                     mouse.click('left')
                 else:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 775, True, 0)
                     mouse.click('left')
                     mouse.click('left')
@@ -164,12 +170,14 @@ def algC():
                 if every > 2.0:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 830, True, 1)
                     mouse.click('left')
                     mouse.click('left')
                 else:
                     mouse.move(1323, 1060, True, 0)
                     mouse.click('left')
+                    time.sleep(0.1)
                     mouse.move(1365, 830, True, 0)
                     mouse.click('left')
                     mouse.click('left')
